@@ -1,0 +1,65 @@
+.wrapper {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#stratego_board{
+
+}
+
+#stratego_table td{
+    width: 4em;
+    height: 4em;
+    border: solid black 2px;
+
+    text-align: center;
+
+}
+
+#stratego_table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td.B_square{
+
+}
+
+td.R_square{
+    background-color: #bd2a2a;
+}
+
+img.piece{
+    width: 2.2em;
+    height: 2.2em;
+    mix-blend-mode: multiply;
+}
+
+.B_piece{
+    background-color: rgb(162, 162, 162,0.75);
+}
+
+.R_piece{
+    background-color: rgba(189, 39, 39, 0.75);
+}
+
+.null_piece{
+    background: none;
+}
+
+body{
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+}
+TD.pmove {border:3px solid rgba(0, 0, 255, 0.42);
+    background-color: #37e337;
+}
+TD.tomove {border:3px solid #006b00;
+    background-color: #006b00;
+}
